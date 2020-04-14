@@ -1,5 +1,143 @@
 body {
     margin-top: 0;
     margin-bottom: 0;
-    background-image: ;
+    background-image: url("../images/backgroundApple.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-size:  1440px 1315px;
+    background-position: 100% 85%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main{
+    width: 1400px;
+    height: 335px;
+    
+   
+}
+a {
+    text-decoration: none;
+    color: rgb(252,253,254);
+    
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.list-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-weight: bold; 
+    border-style: solid;
+    border-width: thin;
+    width: 981px;
+    height: 38px;
+    margin-top: 82px; 
+    margin-left: 230px;
+    margin-right: 230px;
+    
+}
+
+.btnsearch {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}
+  
+.search {
+    position: relative;
+    width: 200px;
+}
+  
+.search input {
+    width: 100%;
+}
+
+.btn-menu :hover {
+    background: blue;
+    color: #648880;
+}
+
+.images {
+    display: flex;
+    margin-top: 8px;
+    
+}
+.image1 {
+    background-image: url("../images/promo_iphone5s.jpg");
+    width: 364px;
+    height: 200px;
+}
+.image2 {
+    background-image: url("../images/promo_iphone5c2.jpg");
+    width: 364px;
+    height: 200px;
+}
+
+.image3 {
+    background-image: url("../images/promo_30_years.jpg");
+    width: 364px;
+    height: 200px;
+}
+
+.image4 {
+    background-image: url("../images/promo_supplier_responsibility.jpg");
+    width: 364px;
+    height: 200px;
+}
+.gradient {
+    background: #466368;
+    background: -webkit-linear-gradient(#5F5F5F, #787778);
+    background:    -moz-linear-gradient(#5F5F5F, #787778);
+    background:         linear-gradient(#5F5F5F, #787778);
+}
+  
+.list-footer{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    height: 27px;
+    font-size: small;
+    background-color: crimson;
+}
+
+.footer{
+      position: absolute;
+      bottom: 0;
+      background-color: darkblue;
+      width: 980px;
+      height: 90px;
+      padding-left: 230px;
+      padding-right: 230px;
+}
+
+.information-footer{
+    float: left;
+    width: 500px;
+    height: 27px;
+    font-size: small;
+}
+#tittle{
+    font-size: 70px;
+    font-weight: lighter;
+    color: rgb(252,253,254);
+    letter-spacing: .2rem;
+    
+}
+
+#teste {
+    background-color: seagreen;
 }
