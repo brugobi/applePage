@@ -28,8 +28,6 @@ h1, p {
     font-size: 30px;
 }
 
-
-
 .list-menu {
     display: flex;
     list-style: none;
@@ -44,6 +42,16 @@ h1, p {
     margin-top: 82px; 
     margin-left: 230px;
     margin-right: 230px;
+    padding-right: 20px;   
+}
+
+.menu li a {
+    display: block;
+    padding: 9px;
+    border-right: solid black;
+    border-width: thin;
+    padding-left: 55px;
+    align-content: center;
     
 }
 
@@ -66,8 +74,11 @@ h1, p {
 }
 
 .btn-menu :hover {
-    background: blue;
-    color: #648880;
+    background: #2F2F30;
+    color: rgb(252,253,254);
+    background: -webkit-linear-gradient(#5F5F5F, #2F2F30);
+    background:    -moz-linear-gradient(#5F5F5F, #2F2F30);
+    background:         linear-gradient( #5F5F5F, #2F2F30);
 }
 
 .images {
@@ -98,10 +109,11 @@ h1, p {
     height: 200px;
 }
 .gradient {
-    background: #466368;
+    /*background: #466368;
     background: -webkit-linear-gradient(#5F5F5F, #787778);
     background:    -moz-linear-gradient(#5F5F5F, #787778);
-    background:         linear-gradient(#5F5F5F, #787778);
+    */
+    background: linear-gradient( #787778 50%, #5F5F5F 50%);
 }
   
 .list-footer{
@@ -120,7 +132,6 @@ h1, p {
       background-color: darkblue;
       width: 980px;
       height: 90px;
-      padding-left: 230px;
       padding-right: 230px;
 }
 
@@ -130,12 +141,12 @@ h1, p {
     height: 27px;
     font-size: small;
 }
+
 #tittle{
     font-size: 70px;
     font-weight: lighter;
     color: rgb(252,253,254);
-    letter-spacing: .2rem;
-    
+    letter-spacing: .2rem;   
 }
 
 #teste {
