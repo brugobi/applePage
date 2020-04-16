@@ -24,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: linear-gradient( #5F5F5F 50%, #2F2F30 50%);;
 }
 
 li {
