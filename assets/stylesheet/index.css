@@ -3,88 +3,134 @@ body {
     margin-bottom: 0;
     background-image: url("../images/backgroundApple.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-size:  1440px 1315px;
-    background-position: 100% 85%;
+    background-size:  1440px 1350px;
+    background-position: 100% 77%;
+    margin-left: 0;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main{
-    width: 1400px;
-    height: 335px;
-    
-   
-}
-a {
-    text-decoration: none;
-    color: rgb(252,253,254);
-    
+    width: 1440px;
+    height: 335px; 
 }
 
 h1, p {
+    color: rgb(252,253,254);   
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    text-align: center;
+}
+
+li a {
+    display: block;
     color: white;
     text-align: center;
-    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: groove 1px white;
+  }
+
+li a:hover {
+    background: #2F2F30;
+    background: -webkit-linear-gradient(#5F5F5F, #2F2F30);
+    background:    -moz-linear-gradient(#5F5F5F, #2F2F30);
+    background:         linear-gradient( #5F5F5F, #2F2F30);
+} 
+
+.menu {
+    position: absolute; 
+    width: 980px;
+    height: 90px;
+    padding-left: 230px;
+    margin-top: 70px;
+    font-size: small;
 }
 
 .list-menu {
     display: flex;
-    list-style: none;
-    align-items: center;
-    border-radius: 5px;
-    justify-content: space-between;
-    font-weight: bold; 
-    border-style: solid;
-    border-width: thin;
     width: 981px;
     height: 38px;
-    margin-top: 82px; 
-    margin-left: 230px;
-    margin-right: 230px;
-    padding-right: 20px;   
 }
 
-.menu li a {
-    display: block;
-    padding: 9px;
-    border-right: solid black;
+.text-menu {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(252,253,254);
+}
+
+.btn-play {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border-color: rgb(252,253,254);
     border-width: thin;
-    padding-left: 55px;
-    align-content: center;
-    
-}
-
-.btnsearch {
-    position:absolute;
-    top:0; right:0;
-    z-index:10;
-    border:none;
     background:transparent;
-    outline:none;
 }
-  
+.white-link {
+    color: aliceblue;
+}
 .search {
-    position: relative;
     width: 200px;
 }
-  
-.search input {
-    width: 100%;
+i.fa-play {
+    color: rgb(252,253,254);
+}
+
+i.fa-search {
+    color: rgb(252,253,254);
+}
+
+.fa-apple {
+    color: rgb(252,253,254);
+    font-size: x-large;
+}
+
+input {
+    width: 106px;
 }
 
 .btn-menu :hover {
     background: #2F2F30;
-    color: rgb(252,253,254);
     background: -webkit-linear-gradient(#5F5F5F, #2F2F30);
     background:    -moz-linear-gradient(#5F5F5F, #2F2F30);
-    background:         linear-gradient( #5F5F5F, #2F2F30);
+    background:         linear-gradient( #5F5F5F, #2F2F30); 
+}
+
+.text-main {
+    font-size: 30px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.video-link {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.flag-image {
+    width: 30px;
 }
 
 .images {
     display: flex;
-    margin-top: 8px;
-    
+    position: absolute;
+    flex-direction: row;
+    margin-top: 140px;
 }
 .image1 {
     background-image: url("../images/promo_iphone5s.jpg");
@@ -109,10 +155,6 @@ h1, p {
     height: 200px;
 }
 .gradient {
-    /*background: #466368;
-    background: -webkit-linear-gradient(#5F5F5F, #787778);
-    background:    -moz-linear-gradient(#5F5F5F, #787778);
-    */
     background: linear-gradient( #787778 50%, #5F5F5F 50%);
 }
   
@@ -123,25 +165,31 @@ h1, p {
     width: 500px;
     height: 27px;
     font-size: small;
-    background-color: crimson;
 }
 
 .footer{
-      position: absolute;
+      position: fixed;
       bottom: 0;
-      background-color: darkblue;
       width: 980px;
-      height: 90px;
-      padding-right: 230px;
+      height: 70px;
+      padding-left: 230px;
+      font-size: small;
 }
 
-.information-footer{
-    float: left;
-    width: 500px;
-    height: 27px;
-    font-size: small;
+.footer-first-line {
+    display: flex;
 }
 
+.footer-second-line {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+ 
+
+.footer p {
+    color: rgb(95, 95, 95);
+}
 #tittle{
     font-size: 70px;
     font-weight: lighter;
@@ -149,6 +197,7 @@ h1, p {
     letter-spacing: .2rem;   
 }
 
-#teste {
-    background-color: seagreen;
+#watch-link {
+    text-decoration: none;
+    color: rgb(252,253,254);
 }
