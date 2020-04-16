@@ -1,7 +1,9 @@
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -125,7 +127,7 @@ input {
 .text-main {
     font-size: 30px;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 8%;
     letter-spacing: .2rem;
 }
 
@@ -142,29 +144,29 @@ input {
 .images {
     display: flex;
     flex-direction: row;
-    margin-top: 7%;
+    margin-top: 9%;
     width: 1434px;
     justify-content: space-between;
     background-color: tomato;
-    border: solid 5px black;
 }
 
 .img-item {
     float: left;
     width: 360px;
     height: 200px;
-
 }
+
 .footer {
     width: 80%;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 9%;
+    padding: 30px;
 }
 .footer-first-line {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding-right: 10%;
+    width: 90%;   
+    padding-left: 2px;
     justify-content: space-between;
 }   
 
