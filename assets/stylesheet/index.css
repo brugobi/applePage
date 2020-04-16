@@ -97,12 +97,10 @@ input[type=text]:hover, textarea:hover{
 }
 
 .btn-play {
-    display: flex;
-    align-self: center;
-    padding: 8px 10px;
+    padding: 7px 10px;
     border-radius: 100%;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 20px;
     border-color: rgb(252,253,254);
     border-width: thin;
     background-color: transparent;
@@ -113,6 +111,7 @@ input[type=text]:hover, textarea:hover{
 
 i.fa-play {
     color: rgb(252,253,254);
+    font-size: 20px;
 }
 
 .fa-apple {
@@ -134,6 +133,7 @@ input {
 .video-link {
     display: flex;
     justify-content: center;
+    align-self: center;
     font-size: 20px;
 }
 
@@ -144,10 +144,9 @@ input {
 .images {
     display: flex;
     flex-direction: row;
-    margin-top: 9%;
+    margin-top: 6%;
+    padding-top: 1px;
     width: 1434px;
-    justify-content: space-between;
-    background-color: tomato;
 }
 
 .img-item {
@@ -159,14 +158,16 @@ input {
 .footer {
     width: 80%;
     margin: 0 auto;
-    margin-top: 9%;
-    padding: 30px;
+    margin-top: 10%;
+    padding: 5px;
 }
 .footer-first-line {
     display: flex;
     flex-direction: row;
-    width: 90%;   
-    padding-left: 2px;
+    width: 90%;
+    height: 10%; 
+    margin-top: 2%; 
+    padding: 5px; 
     justify-content: space-between;
 }   
 
@@ -180,10 +181,9 @@ input {
 
 .border-right {
     display: block;
-    text-align: center;
-    padding: 14px 20px;
     font-size: 12px;
-    white-space: nowrap;
+    padding-right: 10px;
+    padding-bottom: 0;
     border-right: 2px;
     border-right: groove 1px rgb(252,253,254);
 }
