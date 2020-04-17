@@ -12,6 +12,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 h1,
@@ -50,11 +52,11 @@ li a:hover {
 }
 
 .menu {
-  position: absolute;
+  position: relative;
   width: 980px;
   height: 90px;
   padding-left: 230px;
-  margin-top: 70px;
+  margin-top: 5%;
   font-size: small;
 }
 
@@ -148,8 +150,7 @@ input {
 .images {
   display: flex;
   flex-direction: row;
-  margin-top: 6%;
-  padding-top: 1px;
+  padding-top: 8px;
   width: 1434px;
 }
 
@@ -162,7 +163,7 @@ input {
 .footer {
   width: 80%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 3%;
   padding: 5px;
 }
 
