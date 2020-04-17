@@ -6,14 +6,18 @@
   box-sizing: content-box;
 }
 
-body {
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100%;
-  margin: 0 auto;
+.wrapper {
   max-width: 1440px;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url("../images/appleimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 1315px;
+  background-position: 50% 110%;
 }
 
 h1,
@@ -52,12 +56,10 @@ li a:hover {
 }
 
 .menu {
-  position: relative;
-  width: 980px;
-  height: 90px;
-  padding-left: 230px;
-  margin-top: 5%;
-  font-size: small;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 35px;
 }
 
 .list-menu {
@@ -90,7 +92,7 @@ textarea:hover {
 
 .inputWithIcon {
   position: relative;
-  color: white;
+  color: #d3d3d3;
   margin: 0 auto;
 }
 
@@ -98,7 +100,7 @@ textarea:hover {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 5px 8px;
+  padding: 5px 10px;
 }
 
 .btn-play {
@@ -118,6 +120,10 @@ textarea:hover {
 i.fa-play {
   color: rgb(252, 253, 254);
   font-size: 20px;
+}
+
+i.fa-search {
+  font-size: 15px;
 }
 
 .fa-apple {
@@ -149,40 +155,27 @@ input {
 
 .images {
   display: flex;
-  flex-direction: row;
-  padding-top: 8px;
-  width: 1434px;
+  flex-flow: row nowrap;
+  width: 1400px;
+  height: 14px;
+  margin-top: 80px;
 }
 
 .img-item {
-  float: left;
   width: 360px;
   height: 200px;
 }
 
 .footer {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 3%;
-  padding: 5px;
-}
-
-.footer-first-line {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  height: 10%;
-  margin-top: 2%;
-  padding: 5px;
-  justify-content: space-between;
+  display: block;
+  margin-top: 14%;
 }
 
 .footer-links {
   display: flex;
   flex-direction: row;
-  align-self: center;
-  justify-content: space-around;
-  width: 510px;
+  width: 1300px;
+  white-space: nowrap;
 }
 
 .border-right {
@@ -190,18 +183,18 @@ input {
   font-size: 12px;
   padding-right: 10px;
   padding-bottom: 0;
-  border-right: 2px;
   border-right: groove 1px rgb(252, 253, 254);
 }
 
-.footer-second-line {
-  display: flex;
-  justify-content: flex-start;
+.gray {
+  font-size: 10px;
+  color:#6e6e6e;
+  font-style: arial;
 }
 
-.gray {
-  font-size: 12px;
-  color: #696969;
+.p-footer {
+  text-align: left;
+  padding-left: 100px;
 }
 
 #tittle {
