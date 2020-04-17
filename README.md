@@ -12,9 +12,9 @@ Its a clone of old an old version of the Apple website webpage
 
 ```Branch is on feature```
 
-## Usage
+## Live Demo
 
-- In safari;
+- https://raw.githack.com/brugobi/applePage/feature/index.html
 
 ## Author
  
