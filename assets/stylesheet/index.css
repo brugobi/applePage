@@ -13,10 +13,9 @@
 .main-container {
   display: flex;
   flex-flow: row nowrap;
-  font-family: 'Open Sans Condensed', sans-serif;
   background-image: url("../images/appleimage.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 1315px;
+  background-size: 100% 1440px;
   background-position: 50% 110%;
 }
 
@@ -48,6 +47,10 @@ li a {
   border-right: groove 1px rgb(252, 253, 254);
 }
 
+.footer a {
+  color: rgb(43, 121, 195);
+}
+
 li a:hover {
   background: #2f2f30;
   background: -webkit-linear-gradient(#5f5f5f, #2f2f30);
@@ -58,7 +61,7 @@ li a:hover {
 .menu {
   display: flex;
   justify-content: center;
-  margin-top: 75px;
+  margin-top: 80px;
   margin-bottom: 35px;
 }
 
@@ -67,6 +70,7 @@ li a:hover {
   width: 981px;
   height: 38px;
   border: solid 2px #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .text-menu {
@@ -113,10 +117,6 @@ textarea:hover {
   background-color: transparent;
 }
 
-.white-link {
-  color: aliceblue;
-}
-
 i.fa-play {
   color: rgb(252, 253, 254);
   font-size: 20px;
@@ -139,7 +139,7 @@ input {
   font-size: 30px;
   height: 400px;
   margin-top: 8%;
-  letter-spacing: 0.2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .video-link {
@@ -156,9 +156,9 @@ input {
 .images {
   display: flex;
   flex-flow: row nowrap;
-  width: 1400px;
+  width: 1440px;
   height: 14px;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .img-item {
@@ -167,15 +167,20 @@ input {
 }
 
 .footer {
-  display: block;
   margin-top: 14%;
+  width: 1440px;
 }
 
 .footer-links {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  width: 1300px;
+  width: 1440px;
   white-space: nowrap;
+}
+
+.footer-second-line {
+  padding-left: 300px;
 }
 
 .border-right {
@@ -187,24 +192,31 @@ input {
 }
 
 .gray {
-  font-size: 10px;
+  font-size: 11px;
   color: #6e6e6e;
-  font-style: arial;
+}
+
+.itens-footer {
+  text-align: center;
+  padding-right: 5px;
+}
+
+.shop-footer {
+  padding-right: 40px;
 }
 
 .p-footer {
   text-align: left;
-  padding-left: 100px;
 }
 
-#tittle {
+.tittle {
   font-size: 70px;
   font-weight: lighter;
   color: rgb(252, 253, 254);
   letter-spacing: 0.2rem;
 }
 
-#watch-link {
+.watch-link {
   text-decoration: none;
   color: rgb(252, 253, 254);
 }

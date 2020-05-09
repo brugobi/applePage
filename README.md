@@ -8,7 +8,7 @@ Its a clone of old an old version of the Apple website webpage
 
 ## Built With
 
-- HTML & CSS; 
+- HTML5 & CSS3; 
 
 ## Tools 
 
